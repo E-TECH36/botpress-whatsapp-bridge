@@ -4,10 +4,10 @@ const axios = require("axios")
 const app = express()
 app.use(express.json())
 
-const BOT_ID = "YOUR_BOTPRESS_BOT_ID"
+const BOT_ID = "5817ba62-4e65-424c-b1ce-26214dee6288"
 const BOTPRESS_URL = "https://api.botpress.cloud/v1/chat"
-const ULTRA_INSTANCE = "YOUR_INSTANCE_ID"
-const ULTRA_TOKEN = "YOUR_ULTRA_TOKEN"
+const ULTRA_INSTANCE = "instance165410"
+const ULTRA_TOKEN = "gx55ew9dt8axrn4q"
 
 app.post("/webhook", async (req, res) => {
 
